@@ -129,7 +129,7 @@ margin-bottom: 50px;
   background-color: #a00;
   overflow: hidden;
   /* top left corner */
-  position: absolute;
+  position: fixed;
   left: -3em;
   top: 2.5em;
   /* 45 deg ccw rotation */
@@ -141,7 +141,6 @@ margin-bottom: 50px;
 }
 
 .ribbon a {
-  border: 1px solid #faa;
   color: #fff;
   display: block;
   font: bold 81.25% Arial;
