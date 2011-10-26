@@ -14,8 +14,8 @@ a:hover {
   color: #F4F575;
 }
 #title {
-  top: 100px;
-  left: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
   position: fixed;
   width: 510px;
 }
@@ -40,6 +40,7 @@ p.small {
   position: absolute;
   width: 450px;
   left: 710px;
+  top:0px;
   z-index: 2;
   text-shadow: white 0 1px 0;
   color: black;
@@ -129,7 +130,7 @@ margin-bottom: 50px;
   background-color: #a00;
   overflow: hidden;
   /* top left corner */
-  position: fixed;
+  position: absolute;
   left: -3em;
   top: 2.5em;
   /* 45 deg ccw rotation */
