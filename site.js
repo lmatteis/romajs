@@ -76,7 +76,7 @@ function relativeTime(pastTime)
   return dateArr[4].replace(/\:\d+$/,'')+' '+dateArr[2]+' '+dateArr[1]+(dateArr[3]!=curDate.getFullYear()?' '+dateArr[3]:'');
 }
 
-var search_query = encodeURIComponent("#romajs|#roma.js");
+var search_query = "%23romajs%7C%23roma.js";
 function addTweet() {
     var str = ' <div class="tweet">\
             <div class="avatar"><a href="http://twitter.com/'+this.from_user+'" target="_blank"><img src="'+this.profile_image_url+'" alt="'+this.from_user+'" /></a></div>\
