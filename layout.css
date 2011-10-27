@@ -1,9 +1,14 @@
 body {
-  background: url(concrete_wall.png) #32373c; 
   color: white;
   font-family: "Molengo";
   margin:0;
   padding:0;
+  background-color: #444;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444), color-stop(1, #222));
+  background-image: -moz-linear-gradient(top, #444 0%, #222 100%);
+  background-image: linear-gradient(top, #444 0%, #222 100%);
+  background-attachment: fixed;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 a {
     color: #F4F596;
@@ -45,7 +50,7 @@ p.small {
   color: black;
 }
 #roll #tweets {
-  background: url(bgnoise_lg.png) #e6e6e6;
+  background: #F3F3FD;
   box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
   -webkit-border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
@@ -126,7 +131,7 @@ height: 200px;
 margin-bottom: 50px;
 }
 .ribbon {
-  background-color: #a00;
+  background-color: #6797D7;
   overflow: hidden;
   /* top left corner */
   position: absolute;
@@ -149,5 +154,4 @@ margin-bottom: 50px;
   text-align: center;
   text-decoration: none;
   /* shadow */
-  text-shadow: 0 0 0.5em #444;
 }
