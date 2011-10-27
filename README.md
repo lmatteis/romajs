@@ -9,9 +9,9 @@ Also have a look at the [proposed talks](https://github.com/lmatteis/romajs/wiki
 
 ## Location
 
-Roma
-Via del lago pino corto 182 
-51063 Italia
+> Roma
+> Via del lago pino corto 182 
+> 51063 Italia
 
 ## Gruppi
 
