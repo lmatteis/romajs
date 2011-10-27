@@ -76,12 +76,12 @@ function relativeTime(pastTime)
   return dateArr[4].replace(/\:\d+$/,'')+' '+dateArr[2]+' '+dateArr[1]+(dateArr[3]!=curDate.getFullYear()?' '+dateArr[3]:'');
 }
 
-var search_query = "%23romajs";
+var search_query = encodeURIComponent("#romajs|roma.js");
 function addTweet() {
     var str = ' <div class="tweet">\
             <div class="avatar"><a href="http://twitter.com/'+this.from_user+'" target="_blank"><img src="'+this.profile_image_url+'" alt="'+this.from_user+'" /></a></div>\
             <div class="content"><p class="txt">'+formatTwitString(this.text)+'</p>\
-            <p class="meta">'+relativeTime(this.created_at)+' <a href="http://twitter.com/timeline/home?status=%40'+this.from_user+'%20" target="_blank">permalink</a></p><div>\
+            <p class="meta">'+relativeTime(this.created_at)+' <a href="http://twitter.com/timeline/home?status=%40'+this.from_user+'%20" target="_blank">reply</a></p><div>\
           </div>';
     
   $("#tweets").append(str);
@@ -96,6 +96,19 @@ app.index = function () {
     });
   });
   
+    $.getJSON("https://github.com/api/v2/json/commits/list/lmatteis/romajs/master/README.md?callback=?", function(data) {
+        var latest_commit = data.commits[0],
+            latest_commit_id = latest_commit.id;
+        // now  get the README.md blob
+        $.getJSON("https://github.com/api/v2/json/blob/show/lmatteis/romajs/"+latest_commit_id+"/README.md?callback=?", function(data) {
+            // convert markdown to html
+            var md = data.blob.data;
+            var converter = new Showdown.converter();
+            var html = converter.makeHtml(md);
+
+            $('article#md').html(html);
+        });
+    });
 };
 
 $(function () { 
