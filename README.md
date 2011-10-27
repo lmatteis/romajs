@@ -5,7 +5,7 @@
 
 Doors open at 19:00. Talk starts at 19:30.
 
-Also have a look at the proposed talks on the GitHub wiki and add yours.
+Also have a look at the [proposed talks](https://github.com/lmatteis/romajs/wiki/Talks) on the GitHub wiki and add yours.
 
 ## Location
 
