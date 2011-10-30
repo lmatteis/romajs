@@ -1,6 +1,6 @@
 ## Prossimo meeting?
 
-Questa memoria ricoderà nei posteri il giorno quando
+Questa memoria ricorderà nei posteri il giorno quando
 i Romani con voto solenne unanime si vollero ricongiunti al
 linguaggio JavaScript.
 
