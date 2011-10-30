@@ -88,13 +88,31 @@ function addTweet() {
 
 }
 
+function makeUpper(text, indexes) {
+  var html = [];
+  for(var i=0; i<text.length; i++) {
+    var letter = text.charAt(i);
+    if($.inArray(i, indexes) != -1) {
+      letter = "<span style='text-transform: uppercase;'>"+letter+"</span>";
+    }
+    html.push(letter);
+  }
+  return html.join("");
+}
+
 var app = {};
 app.index = function () {
+  /*
   $.getJSON("http://search.twitter.com/search.json?q="+search_query+"&callback=?&rpp=33", function(data) {
     $.each(data.results, function(){
       addTweet.call(this);
     });
   });
+  */
+  var $sub = $("p.sub"),
+      text = $sub.text(),
+      $text = makeUpper(text, [0, 4]);
+  $sub.html($text);
   
     $.getJSON("https://github.com/api/v2/json/commits/list/lmatteis/romajs/master/README.md?callback=?", function(data) {
         var latest_commit = data.commits[0],
