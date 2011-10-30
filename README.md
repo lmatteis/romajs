@@ -1,19 +1,17 @@
 ## Prossimo meeting?
 
-- xx
-- xxx
+Questa memoria ricoderà nei posteri il giorno quando
+i Romani con voto solenne unanime si vollero ricongiunti al
+linguaggio JavaScript.
 
-Doors open at 19:00. Talk starts at 19:30.
+Presso la pagina [talks](http://maps.google.com/maps?q=rome+italy&hnear=Rome,+Lazio,+Italy&t=m&z=9&vpsrc=0)
+costei potettero decidere l'argomento da trattare.
 
-Also have a look at the [proposed talks](https://github.com/lmatteis/romajs/wiki/Talks) on the GitHub wiki and add yours.
+## Luogo
 
-## Location
+> [Roma, Italia](http://maps.google.com/maps?q=rome+italy&hnear=Rome,+Lazio,+Italy&t=m&z=9&vpsrc=0)
 
-> Roma
-> Via del lago pino corto 182 
-> 51063 Italia
-
-## Gruppi
+## Discussioni
 
 - [Mailing List / Google Group](https://groups.google.com/group/romajs)
-- Twitter [#romajs](http://twitter.com/search?q=%23romajs) tag
+- Twitter [#romajs](http://twitter.com/search?q=%23romajs)
