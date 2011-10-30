@@ -5,7 +5,7 @@ i Romani con voto solenne unanime si vollero ricongiunti al
 linguaggio JavaScript.
 
 Presso la pagina [talks](http://maps.google.com/maps?q=rome+italy&hnear=Rome,+Lazio,+Italy&t=m&z=9&vpsrc=0)
-costei potettero decidere l'argomento da trattare.
+coloro potettero decidere l'argomento da trattare.
 
 ## Luogo
 
