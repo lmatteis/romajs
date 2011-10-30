@@ -109,10 +109,12 @@ app.index = function () {
     });
   });
   */
+  /*
   var $sub = $("p.sub"),
       text = $sub.text(),
       $text = makeUpper(text, [0, 4]);
   $sub.html($text);
+  */
   
     $.getJSON("https://github.com/api/v2/json/commits/list/lmatteis/romajs/master/README.md?callback=?", function(data) {
         var latest_commit = data.commits[0],

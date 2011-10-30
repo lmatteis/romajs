@@ -29,20 +29,18 @@ a:hover {
   color: #F4F575;
 }
 */
-a {color: #5b80c2; text-decoration:none;}
+a {font-weight: bold;color: #5b80c2; text-decoration:none;}
 a:active, a:focus { outline: none;}
 a:hover {
 border-bottom: 1px solid #dcdcdc;
 color: #555;
 }
 p:first-letter, li:first-letter, textarea:first-letter{
-    text-transform: uppercase;
   }
 p, li, textarea {
 /*line-height: 150%;*/
 font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 letter-spacing: 0.1em;
-text-transform: lowercase;
 line-height: 145%;
 font-size: 14pt;
 font-variant: small-caps;
@@ -54,14 +52,14 @@ font-variant: small-caps;
 #title h1 {
 margin:0;
 font-size:45px;
+border:0;
 }
 h1:first-letter,h2:first-letter,h3:first-letter,h4:first-letter{
-    text-transform: uppercase;
 }
-h1,h2,h3,h4{font-family:"EB Garamond";
-text-transform: lowercase;
+h1,h2,h3,h4{font-family:"Sorts Mill Goudy";
 font-variant: small-caps;
 color: #252525;
+border-bottom: 1px solid #dcdcdc;
 
 letter-spacing: 0.1em;
 /*
