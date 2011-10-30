@@ -1,15 +1,25 @@
 body {
   color: white;
-  font-family: "Molengo";
+  color: black;
+  color: #595959;
+  font-family: "New Times Roman";
   margin:0;
   padding:0;
+  /*
   background-color: #444;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444), color-stop(1, #222));
   background-image: -moz-linear-gradient(top, #444 0%, #222 100%);
   background-image: linear-gradient(top, #444 0%, #222 100%);
   background-attachment: fixed;
+  */
+  background: #ece8e9;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.60);
+  font-size: 18px;
+  font-size: 1.5em/1.4em;
+  text-shadow: white 0 1px 0;
 }
+/*
 a {
     color: #F4F596;
   font-weight: bold;
@@ -18,20 +28,47 @@ a {
 a:hover {
   color: #F4F575;
 }
+*/
+a {color: #5b80c2; text-decoration:none;}
+a:active, a:focus { outline: none;}
+a:hover {
+border-bottom: 1px solid #dcdcdc;
+color: #555;
+}
+p:first-letter, li:first-letter, textarea:first-letter{
+    text-transform: uppercase;
+  }
+p, li, textarea {
+/*line-height: 150%;*/
+font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+letter-spacing: 0.1em;
+text-transform: lowercase;
+line-height: 145%;
+font-size: 14pt;
+font-variant: small-caps;
+}
 #title {
-  margin-top: 100px;
-  margin-left: 100px;
+  padding:50px;
   width: 510px;
 }
 #title h1 {
 margin:0;
 font-size:45px;
 }
-#title h1,h2,h3,h4{font-family:"Cabin Sketch";
+h1:first-letter,h2:first-letter,h3:first-letter,h4:first-letter{
+    text-transform: uppercase;
+}
+h1,h2,h3,h4{font-family:"EB Garamond";
+text-transform: lowercase;
+font-variant: small-caps;
+color: #252525;
+
+letter-spacing: 0.1em;
+/*
 text-shadow:0 1px 0 #ccc,0 2px 0 #bbb,0 3px 0 #aaa,0 4px 0 #333,0 6px 1px rgba(0,0,0,0.1),0 0 5px rgba(0,0,0,0.1),0 1px 3px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2),0 5px 10px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.2),0 20px 20px rgba(0,0,0,0.15);
+*/
 }
 #title p.sub {
-  color: #64676F;
   margin-top: 5px;
 }
 #footer {
@@ -94,7 +131,7 @@ margin-bottom: 10px;
 }
 .tweet .content .txt, #end .txt {
 margin-bottom: 10px;
-font-size: 1.8em;
+font-size: 1.3em;
 margin-top: -3px;
 padding-right: 15px;
 }
